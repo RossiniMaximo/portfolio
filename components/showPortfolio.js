@@ -37,7 +37,6 @@ function renderProyects(proyects, containerEl) {
   const titleEl = templateEl.content.querySelector(".card_title");
   const descriptionEl = templateEl.content.querySelector(".card_description");
   for (let p of proyects) {
-    console.log("P :", p);
     titleEl.textContent = p.title;
     descriptionEl.textContent = p.description;
     imgEl.src = p.img;

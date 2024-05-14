@@ -7,9 +7,9 @@ function menuComp(cb, containerEl) {
                 <img src="../images/cross.png" alt="" class="menu_close_img" />
             </div>
             <nav class="nav_menu_options">
-                <a href="/portfolio.html" class="menu_options">Portfolio</a>
-                <a href="/services.html" class="menu_options">Servicios</a>
-                <a href="/contact.html" class="menu_options">Contacto</a>
+                <a href="portfolio/portfolio.html" class="menu_options">Portfolio</a>
+                <a href="portfolio/services.html" class="menu_options">Servicios</a>
+                <a href="portfolio/contact.html" class="menu_options">Contacto</a>
             </nav>
             </div>`;
 
