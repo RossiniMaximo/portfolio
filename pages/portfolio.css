@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio_content_container {
+}
+.portfolio_header {
+}
+.portfolio_welcome {
+}
+.portfolio_proyects {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-image: url("../images/doodle\ items.png");
+  background-color: #192130;
+}
+@media (min-width: 960px) {
+  .portfolio_proyects {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.card_container {
+  background: #393e4680 50%;
+  border-radius: 16px;
+  padding: 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media (min-width: 960px) {
+  .card_container {
+    width: 600px;
+    flex-wrap: wrap;
+  }
+}
+
+.card_img_cont {
+}
+.card_img {
+  height: 125px;
+  width: 250px;
+  object-fit: contain;
+}
+.card_text {
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_title {
+  color: #fafafa;
+  font-size: 33px;
+  font-weight: 700;
+}
+.card_description {
+  color: #fafafa;
+  font-size: 16px;
+}
+.card_links {
+  width: 100%;
+  text-align: end;
+  padding: 20px;
+}
+.card_links > a {
+  color: #fafafa;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (min-width: 960px) {
+  .card_links > a {
+    text-align: right;
+    padding: 20px;
+  }
+}

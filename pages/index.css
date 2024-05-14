@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.introduction {
+  background-color: #192130;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 960px) {
+  .introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    height: 800px;
+  }
+}
+.intro_text_cont {
+  padding: 20px;
+}
+@media (min-width: 960px) {
+  .intro_text_cont {
+    max-width: 600px;
+  }
+}
+.intro_title {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.intro_text {
+  font-size: 18px;
+}
+.intro_img_cont {
+}
+.intro_img {
+  width: 200px;
+}
+@media (min-width: 960px) {
+  .intro_img {
+    width: 400px;
+  }
+}
+.services {
+  background-image: url("/doodle\ items.png");
+  background-color: #192130;
+}
+.services > h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.services span {
+  font-size: 42px;
+  font-weight: 700;
+  color: #00adb5;
+}
+.contact_container {
+  height: 800px;
+}
+.footer_container {
+}

@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.services_content_container {
+}
+.services_header_container {
+}
+.services_welcome {
+}
+.services_container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-image: url("../images/doodle\ items.png");
+  background-color: #192130;
+}
+@media (min-width: 960px) {
+  .services_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.card_container {
+}
+.card_img_cont {
+}
+.card_img {
+}
+.card_text {
+}
+.card_title {
+}
+.card_description {
+}

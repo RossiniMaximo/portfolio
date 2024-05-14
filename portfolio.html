@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./components/menu.css" />
+    <script defer src="./components/menu.js"></script>
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/welcome.css" />
+    <script defer src="./components/welcome.js"></script>
+    <link rel="stylesheet" href="./components/showPortfolio.css" />
+    <script defer src="./components/showPortfolio.js"></script>
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./pages/portfolio.css" />
+    <script defer src="./pages/portfolio.js"></script>
+  </head>
+  <body>
+    <div class="portfolio_content_container">
+      <div class="portfolio_header"></div>
+      <section class="portfolio_welcome"></section>
+      <section class="portfolio_proyects">
+        <template id="proyects_template">
+          <div class="card_container">
+            <div class="card_img_cont">
+              <img src="" alt="" class="card_img" />
+            </div>
+            <div class="card_text">
+              <h4 class="card_title"></h4>
+              <p class="card_description"></p>
+            </div>
+            <nav class="card_links">
+              <a href="">Ver más</a>
+            </nav>
+          </div>
+        </template>
+      </section>
+      <div class="portfolio_footer"></div>
+    </div>
+  </body>
+</html>
