@@ -6,9 +6,9 @@ function footerComponent(el) {
         <img src="./images/logo.png" alt="logo" class="footer_logo" />
     </div>
      <nav class="footer_page_links">
-        <a href="portfolio/index.html" class="footer_link"> <img src="./images/casa.png" alt="linkedin" /> Home</a>
-        <a href="portfolio/services.html" class="footer_link"> <img src="./images/contacto.png" alt="linkedin" />Servicios</a>
-        <a href="portfolio/contact.html" class="footer_link"> <img src="./images/telefono.png" alt="linkedin" />Contacto</a>
+        <a href="/index.html" class="footer_link"> <img src="./images/casa.png" alt="linkedin" /> Home</a>
+        <a href="/services.html" class="footer_link"> <img src="./images/contacto.png" alt="linkedin" />Servicios</a>
+        <a href="/contact.html" class="footer_link"> <img src="./images/telefono.png" alt="linkedin" />Contacto</a>
      </nav>
      <nav class="footer_my_social_media">
         <a href="https://www.linkedin.com/in/maximo-rossini-fullstack/" class="footer_my_social_link">
